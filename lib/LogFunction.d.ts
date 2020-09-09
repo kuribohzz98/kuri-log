@@ -1,0 +1,13 @@
+declare function Log(...args: any[]): void;
+declare function LogInfo(...args: any[]): void;
+declare function LogSuccess(...args: any[]): void;
+declare function LogWarn(...args: any[]): void;
+declare function LogDanger(...args: any[]): void;
+declare function LogError(...args: any[]): void;
+declare function LogTag(tag: string, ...args: any[]): void;
+declare function LogTagInfo(tag: string, ...args: any[]): void;
+declare function LogTagSuccess(tag: string, ...args: any[]): void;
+declare function LogTagWarn(tag: string, ...args: any[]): void;
+declare function LogTagDanger(tag: string, ...args: any[]): void;
+declare function LogTagError(tag: string, ...args: any[]): void;
+export { Log, LogInfo, LogSuccess, LogWarn, LogDanger, LogError, LogTag, LogTagInfo, LogTagSuccess, LogTagWarn, LogTagDanger, LogTagError };
